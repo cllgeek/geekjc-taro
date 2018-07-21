@@ -1,0 +1,24 @@
+.postItem{
+  &-contentItem{
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd
+  }
+  &-left{
+    display: flex;
+    flex: 4
+  }
+  &-right{
+    margin-left: 20px;
+    display: flex;
+    flex: 1
+  }
+  &-tag{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-right: 20px
+  }
+  &-navigatorHover{
+    color:blue;
+  }
+}
